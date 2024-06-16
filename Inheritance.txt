@@ -1,0 +1,16 @@
+package java_Basics;
+public class Inherit1 {
+	int x=23;
+	public void inherit() {
+		System.out.println("This text is from the parent class");
+	}
+}
+Child Class:
+package java_Basics;
+public class Inherit2 extends Inherit1 {
+	public static void main(String[] args) {
+     Inherit2 Parent=new Inherit2();
+     Parent.inherit();
+     System.out.println(Parent.x);
+	}
+}
