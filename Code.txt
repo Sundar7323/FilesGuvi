@@ -1,0 +1,6 @@
+public class Inherit1 {
+	int x=23;
+	public void inherit() {
+		System.out.println("This text is from the parent class");
+	}
+}
