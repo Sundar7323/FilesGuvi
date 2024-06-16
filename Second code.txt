@@ -1,0 +1,17 @@
+package java_Basics;
+public class Example {
+public static int noofworkers=0;
+	String name;
+	Example(String name){ //parameterized constructor//
+		this.name=name;
+		noofworkers++;
+	}
+	public static void main(String[] args) {	
+		Example depart=new Example("IT"); - Creating object for constructor.
+		System.out.println(depart.name);
+		System.out.println(Example.noofworkers);	
+		Example depart2=new Example("Finance");
+		System.out.println(depart2.name);
+		System.out.println(Example.noofworkers);
+	}
+}
